@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.XC1 {
+  background-color: red;
+  color: white;
+}
+
+.XC2 {
+  background-color: chartreuse;
+}
+
+.XC3 {
+  background-color: aqua;
+}
+
+.box {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#quoteContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+#errorText {
+  color: red;
+}

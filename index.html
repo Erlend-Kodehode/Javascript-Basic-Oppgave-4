@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Xenoblade Quote Generator</title>
+  </head>
+  <body>
+    <h1>Random Xenoblade Quote Generator</h1>
+    <p id="errorText"></p>
+    <label for="quoteNum">Number of quotes:</label>
+    <input type="number" id="quoteNum" value="1" />
+    <button onclick="getQuote(0)">Xenoblade 1</button>
+    <button onclick="getQuote(1)">Xenoblade 2</button>
+    <button onclick="getQuote(2)">Xenoblade 3</button>
+    <button onclick="getQuote()">Random game</button>
+    <button onclick="clearQuotes()">Clear qoutes</button>
+    <div id="quoteContainer"></div>
+  </body>
+</html>
